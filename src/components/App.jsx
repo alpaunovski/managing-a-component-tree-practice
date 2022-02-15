@@ -31,7 +31,7 @@ function App() {
       <div className="heading">
         <h1>To-Do List</h1>
       </div>
-      {//We pass the different functions as props to the InputArea component and in InputArea.jsx we call them. We give the props the same names as the parent functions.
+      {//We pass the different functions as props to the InputArea component and in InputArea.jsx we call them. We give the props the same names as the parent functions we plan to pass to InputArea.
       }
       <InputArea handleChange={handleChange} inputText={inputText} addItem={addItem}/>
       <div>
